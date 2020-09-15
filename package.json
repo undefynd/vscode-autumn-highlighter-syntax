@@ -1,0 +1,21 @@
+{
+    "name": "vscode-autumn-highlighter-syntax",
+    "displayName": "vscode-autumn-highlighter-syntax",
+    "description": "vscode version from the autumn-highlighter-syntax theme for atom",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vscode-autumn-highlighter-syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vscode-autumn-highlighter-syntax-color-theme.json"
+            }
+        ]
+    }
+}
