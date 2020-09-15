@@ -3,11 +3,28 @@
     "displayName": "vscode-autumn-highlighter-syntax",
     "description": "vscode version from the autumn-highlighter-syntax theme for atom",
     "version": "0.0.1",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/undefynd/vscode-autumn-highlighter-syntax.git"
+    },
+    "bugs": {
+        "url": "https://github.com/undefynd/vscode-autumn-highlighter-syntax/issues"
+    },
+    "publisher": "undefynd",
     "engines": {
         "vscode": "^1.49.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "syntax",
+        "theme",
+        "electron",
+        "dark",
+        "autumn",
+        "spacegrey"
     ],
     "contributes": {
         "themes": [
