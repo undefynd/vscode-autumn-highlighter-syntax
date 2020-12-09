@@ -1,4 +1,4 @@
-{
+{ 
     "name": "Autumn Highlighter Syntax",
     "type": "dark",
     "colors": {
@@ -1161,9 +1161,24 @@
         },
         {
             "name": "Go Function Calls",
-            "scope": "source.go meta.function-call.go",
+            "scope": [
+                "keyword.function.go",
+                "keyword.package.go",
+                "keyword.import.go"
+            ],
             "settings": {
-                "foreground": "#bcc9e4"
+                "foreground": "#8B4B65"
+            }
+        },
+        {
+            "name": "",
+            "scope": [
+                "source.go",
+                "entity.name.package.go"
+            ],
+            "settings": {
+                "foreground": "#a8b5d1",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1297,7 +1312,7 @@
                 "variable.object.property.jsx"
             ],
             "settings": {
-                "foreground": "#C8E69E"
+                "foreground": "#A8B5D1"
             }
         },
         {
@@ -1598,6 +1613,13 @@
             "scope": "entity.name.function.decorator.python",
             "settings": {
                 "foreground": "#6EAA7F"
+            }
+        },
+        {
+            "name": "punctuation separator parameters python",
+            "scope": "punctuation.separator.parameters.python",
+            "settings": {
+                "foreground": "#c98b7e"
             }
         },
         {
