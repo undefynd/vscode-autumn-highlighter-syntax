@@ -4,10 +4,10 @@ The Autumn Highlighter Syntax is a awesome dark theme inspired by the same [Them
 
 ## Install
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-1. Search for `Autumn-highlighter-syntax theme`
+1. Search for `vscode-autumn-highlighter-syntax theme`
 1. Click **Install**
 1. Click **Reload**
-1. File > Preferences > Color Theme > **Autumn-highlighter-syntax**
+1. File > Preferences > Color Theme > **vscode-autumn-highlighter-synta**
 
 
 #### GitHub Repository Clone
@@ -21,7 +21,7 @@ Depending on your platform it is located in the following folders:
 Clone the theme repository as `autumn-highlighter-syntax`:
 
 ```shell
-git clone https://github.com/Yummygum/vscode-autumn-highlighter-syntax autumn-highlighter-syntax
+git clone https://github.com/undefynd/vscode-autumn-highlighter-syntax autumn-highlighter-syntax
 ```
 Afterwards, you will need to activate the theme via
-`File > Preferences > Color Theme > autumn-highlighter-syntax`
+`File > Preferences > Color Theme > vscode-autumn-highlighter-syntax`
